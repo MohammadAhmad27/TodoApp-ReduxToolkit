@@ -1,9 +1,15 @@
-import "./App.css"
+import "./App.css";
+import AddTodo from "./components/AddTodo";
+import Todos from "./components/Todos";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <h1>TodoApp</h1>
+      <AddTodo />
+      <Todos />
+    </>
+  );
+};
 
-export default App
+export default App;
